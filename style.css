@@ -17,7 +17,7 @@ body {
   /* margin: 10px; */
 }
 
-.emptyResponsive {
+.empty .Responsive {
   display: none !important;
   width: 215px;
   height: 215px;
@@ -34,12 +34,16 @@ body {
 }
 
 .hold {
-  border: ;
+  border: 2px solid yellow;
 }
 
 .hovered {
   border-style: dashed;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: gray;
+}
+
+.invisible {
+  display: none;
 }
 
 @media (max-width: 800px) {
